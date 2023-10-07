@@ -2,7 +2,6 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     align-items: center;
     background-color: darkslategray;
     color: white;
@@ -11,6 +10,19 @@ header a{
     margin-right: 2em;
     color: white;
     text-decoration: none;
+}
+header h1{
+    margin-left:none;
+}
+.logo{
+    justify-content: left;
+}
+
+#logocac{
+    height: 6rem;
+}
+.botones{
+    margin-left: 15em;
 }
 .steveybill1{
     background-color: yellow;
